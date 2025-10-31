@@ -1,2 +1,11 @@
 # Returns all contacts (Localhost)
 GET http://localhost:3000/contacts
+
+### # Returns contact by ID (Localhost)
+GET http://localhost:3000/contacts/68bd05dc5d1780d7386cabb6
+
+### # Returns contacts (Render)
+GET https://cse341-project1-1-84cc.onrender.com/contacts
+
+### # Returns contact by ID (Localhost)
+GET https://cse341-project1-1-84cc.onrender.com/contacts/68bd05dc5d1780d7386cabb6
