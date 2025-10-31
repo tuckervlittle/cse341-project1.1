@@ -1,0 +1,2 @@
+# Returns all contacts (Localhost)
+GET http://localhost:3000/contacts
