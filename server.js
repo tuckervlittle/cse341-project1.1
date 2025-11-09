@@ -24,7 +24,7 @@ mongodb.initDb((err) => {
     console.log(err);
   } else {
     app.listen(port, () => {
-      console.log(`Connected to MongoDB and server is running on http://localhost:${port}`);
+      console.log(`Connected to MongoDB and server is running on ${port}`);
     });
   }
 });
